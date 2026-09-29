@@ -1,0 +1,7 @@
+{
+  "schema": "manus.game.auth-backend-contract/v1",
+  "deploy": { "mode": "hybrid", "dockerfilePath": "server/Dockerfile", "healthPath": "/api/health" },
+  "routes": [{ "path": "/api/*", "target": "server" }, { "path": "/*", "target": "static" }],
+  "api": { "protocolVersion": 1 },
+  "database": { "schemaVersion": 1 }
+}

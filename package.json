@@ -1,0 +1,22 @@
+{
+  "name": "popo-dino-island",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export": "mkdir -p dist && godot --headless --path . --export-release Web dist/index.html",
+    "verify-export": "node scripts/check-exported-pack.mjs",
+    "check": "node scripts/manus/runtime-command.cjs ./verify.mjs",
+    "test": "godot --headless --audio-driver Dummy --path . -s test/smoke.gd",
+    "test:audio": "node scripts/check-audio.mjs",
+    "dev": "node scripts/manus/runtime-command.cjs ./server.mjs",
+    "build": "node scripts/manus/runtime-command.cjs ./build.mjs",
+    "preview:build": "node scripts/manus/runtime-command.cjs ./preview-build.mjs",
+    "preview:status": "node scripts/manus/runtime-command.cjs ./preview-build.mjs --status",
+    "doctor": "node scripts/manus/runtime-command.cjs ./doctor.mjs",
+    "inspect": "node scripts/manus/runtime-command.cjs ./inspect-file.mjs",
+    "assets:report": "node scripts/manus/runtime-command.cjs ./asset-provenance.mjs",
+    "test:capture": "godot --audio-driver Dummy --path . --script test/capture_worlds.gd",
+    "test:api": "NODE_PATH=server/node_modules node server/test/api-smoke.mjs",
+    "stages": "python3 tools/stage_gen.py"
+  }
+}

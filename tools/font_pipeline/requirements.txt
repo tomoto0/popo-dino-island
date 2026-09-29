@@ -1,0 +1,1 @@
+fonttools[brotli]>=4.60,<5.0

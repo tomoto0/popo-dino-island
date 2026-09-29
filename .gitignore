@@ -1,0 +1,14 @@
+# Godot / build outputs
+.godot/
+dist/
+test-output/
+game-captures/
+# Dependencies and logs
+node_modules/
+*.log
+*.tmp
+.DS_Store
+# Local tool state
+.manus-artifacts.json
+.manus-logs/
+.manus-webdev/

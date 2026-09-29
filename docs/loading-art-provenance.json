@@ -1,0 +1,36 @@
+{
+  "choice": "platformer",
+  "prompt": "Promotional key art cover for a cheerful 2D pixel-art platformer: the orange baby dinosaur hero (cream belly, green two-leaf sprout, red scarf) leaping over a brown acorn enemy with an arc of star coins, bright sky, sea with green islands, rolling hills, grass ground; logo lettering \"ポポのダイノアイランド\" in chunky rounded Japanese type, cream-yellow fill, red outline, navy shadow.",
+  "tool": "manus generate_image",
+  "model": "default",
+  "reference": {
+    "assets": [
+      "assets/game/hero/idle.webp",
+      "assets/game/hero/jump.webp",
+      "assets/game/acorn/walk_1.webp",
+      "assets/game/items/coin.webp",
+      "in-game capture of stage 1-2"
+    ],
+    "role": "character and world identity references"
+  },
+  "generatedMasterSha256": "76ab932d5b8badba988f9d576a58269dc3e5de44b72758ad7583fcdb05872b96",
+  "outputs": {
+    "assets/share/og.png": {
+      "sha256": "1200b41459cb68a8c2b617ce3f9d2022edce58e743f9725cc9367deb0f26871e",
+      "processing": "Lanczos downscale to 1200x675, crop to 1200x630"
+    },
+    "assets/share/favicon.png": {
+      "sha256": "fbf9f80dfad5d3d9ebdc0c9d5d92acb955f3ebca59eda9d290552ec1d2d6f062",
+      "processing": "360px square crop around the hero head, 256px, rounded-corner alpha mask"
+    },
+    "assets/game/ui/boot_splash.png": {
+      "sha256": "7eea0399206b102d2ebeaad4f955ae8a3e6a0abcdd581391a17474f3563fa146",
+      "processing": "1280x720 downscale, 256-colour PNG boot image"
+    },
+    "web/loading.html#loading-art": {
+      "sha256": "7018b931a47bd4c04fd24ff3d8c1226496af2afb712b410163ed1905a749c3e3",
+      "processing": "1280x720 quality-72 WebP embedded before the PCK"
+    }
+  },
+  "loaderFont": "M PLUS Rounded 1c Medium + ExtraBold, subset to the loader strings only (OFL-1.1, assets/game/fonts/MPLUSRounded1c-OFL.txt)"
+}

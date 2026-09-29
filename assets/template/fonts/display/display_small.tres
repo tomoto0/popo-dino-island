@@ -1,0 +1,13 @@
+[gd_resource type="FontVariation" load_steps=4 format=3]
+
+[ext_resource type="FontFile" path="res://assets/game/fonts/MPLUSRounded1c-ExtraBold.subset.woff2" id="0_jp"]
+[ext_resource type="FontFile" path="res://assets/template/fonts/display/Baloo2-VF.subset.woff2" id="1_latin"]
+[ext_resource type="FontVariation" path="res://assets/template/fonts/noto_sans_sc_bold.tres" id="3_cjk_body"]
+
+[resource]
+resource_name = "Calico small heading (<28px): Baloo 2 Bold + Noto Sans SC Bold + M PLUS Rounded 1c"
+base_font = ExtResource("1_latin")
+fallbacks = Array[Font]([ExtResource("0_jp"), ExtResource("3_cjk_body")])
+variation_opentype = {
+2003265652: 700
+}

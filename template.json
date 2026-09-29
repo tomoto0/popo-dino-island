@@ -1,0 +1,8 @@
+{
+  "id": "game-platformer",
+  "name": "Horizontal Platformer Game (Godot Web)",
+  "description": "A Godot 4.7.2 browser platformer reference with two authored stages, event-driven onboarding, local standings, EN/CN menus, keyboard/controller/touch controls, bounded feedback, centralized audio and release-safe owner tuning.",
+  "capabilities": [
+    "static"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "publicationOrigin": "https://yoshiland-antk2m9j.manus.game",
+  "title": "ポポのダイノアイランド",
+  "description": "オレンジの恐竜ポポになって、6つのワールド・24ステージを冒険する2Dアクション。タマゴを投げて、フワフワジャンプでコインとメダルを集めよう。ユーザー名とパスワードだけで登録でき、進みぐあいはクラウドにセーブされます。",
+  "defaultCaptions": {
+    "x": "恐竜ポポの2Dアクション「ポポのダイノアイランド」！6ワールド・24ステージ、後半ほどむずかしくなるよ。登録はユーザー名とパスワードだけ。",
+    "facebook": "オレンジの恐竜ポポが主人公の2Dアクションゲーム「ポポのダイノアイランド」。草原・海辺・洞くつ・空・夜の森・溶岩の城の6ワールド24ステージ。ユーザー名とパスワードだけで登録して、すぐにあそべてクラウドセーブもできます。",
+    "reddit": "ポポのダイノアイランド — 6ワールド・24ステージの2Dプラットフォーマー（ブラウザで遊べます）",
+    "discord": "ブラウザで遊べる2Dアクション「ポポのダイノアイランド」！タマゴ投げ・フワフワジャンプで24ステージに挑戦しよう。"
+  },
+  "assets": {
+    "og": {
+      "digest": "sha256:1200b41459cb68a8c2b617ce3f9d2022edce58e743f9725cc9367deb0f26871e",
+      "path": "share/1200b41459cb68a8c2b617ce3f9d2022edce58e743f9725cc9367deb0f26871e.png",
+      "mime": "image/png",
+      "width": 1200,
+      "height": 630,
+      "sizeBytes": 881153,
+      "sourcePath": "assets/share/og.png"
+    },
+    "favicon": {
+      "digest": "sha256:fbf9f80dfad5d3d9ebdc0c9d5d92acb955f3ebca59eda9d290552ec1d2d6f062",
+      "path": "share/fbf9f80dfad5d3d9ebdc0c9d5d92acb955f3ebca59eda9d290552ec1d2d6f062.png",
+      "mime": "image/png",
+      "width": 256,
+      "height": 256,
+      "sizeBytes": 92204,
+      "sourcePath": "assets/share/favicon.png"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+extends RefCounted
+## Paths keep gameplay audio outside the title startup dependency graph.
+## Literal paths are retained in the all-resources Web export.
+
+const BGM_PATH := "res://assets/game/audio/bgm_map.ogg"
+## World music; GameAudio.select_track() swaps between these tracks.
+const BGM_TRACKS: Dictionary[StringName, String] = {
+	&"map": "res://assets/game/audio/bgm_map.ogg",
+	&"overworld": "res://assets/game/audio/bgm_overworld.ogg",
+	&"cave": "res://assets/game/audio/bgm_cave.ogg",
+	&"sky": "res://assets/game/audio/bgm_sky.ogg",
+	&"forest": "res://assets/game/audio/bgm_forest.ogg",
+	&"castle": "res://assets/game/audio/bgm_castle.ogg",
+	&"boss": "res://assets/game/audio/bgm_boss.ogg",
+}
+const CUE_PATHS: Dictionary[StringName, String] = {
+	&"stage_clear": "res://assets/game/audio/jingle_clear.ogg",
+	&"success": "res://assets/game/audio/jingle_clear.ogg",
+	&"game_over": "res://assets/game/audio/jingle_gameover.ogg",
+	&"invalid": "res://assets/template/audio/death.ogg",
+	&"tutorial": "res://assets/template/audio/checkpoint.ogg",
+	&"attack": "res://assets/game/audio/sfx_throw.ogg",
+	&"confirm": "res://assets/template/audio/confirm.ogg",
+	&"jump": "res://assets/game/audio/sfx_jump.ogg",
+	&"flutter": "res://assets/game/audio/sfx_flutter.ogg",
+	&"land": "res://assets/template/audio/land.ogg",
+	&"coin": "res://assets/game/audio/sfx_coin.ogg",
+	&"medal": "res://assets/game/audio/sfx_powerup.ogg",
+	&"stomp": "res://assets/game/audio/sfx_stomp.ogg",
+	&"kick": "res://assets/game/audio/sfx_kick.ogg",
+	&"bump": "res://assets/game/audio/sfx_bump.ogg",
+	&"powerup": "res://assets/game/audio/sfx_powerup.ogg",
+	&"one_up": "res://assets/game/audio/sfx_1up.ogg",
+	&"hurt": "res://assets/game/audio/sfx_hurt.ogg",
+	&"boss_hit": "res://assets/game/audio/sfx_kick.ogg",
+	&"spring": "res://assets/game/audio/sfx_jump.ogg",
+	&"checkpoint": "res://assets/template/audio/checkpoint.ogg",
+	&"death": "res://assets/template/audio/death.ogg",
+	&"ui_confirm": "res://assets/template/audio/confirm.ogg",
+	&"ui_back": "res://assets/template/audio/land.ogg",
+	&"ui_cancel": "res://assets/template/audio/land.ogg",
+	&"ui_hover": "res://assets/template/audio/land.ogg",
+	&"ui_focus": "res://assets/template/audio/land.ogg",
+	&"ui_selection": "res://assets/game/audio/sfx_coin.ogg",
+	&"ui_toggle": "res://assets/template/audio/confirm.ogg",
+	&"ui_slider": "res://assets/template/audio/land.ogg",
+	&"ui_invalid": "res://assets/template/audio/death.ogg",
+	&"ui_notification": "res://assets/template/audio/checkpoint.ogg",
+}
+
+# Reuse the supplied final cue set with deliberate UI gain/pitch treatment.
+# All one-shot routing, levels and repeat limits remain in this registry.
+const CUE_SETTINGS := {
+	&"stage_clear": {"cooldown_ms": 1000, "gain_db": -4.0},
+	&"success": {"cooldown_ms": 1000, "gain_db": -4.0},
+	&"game_over": {"cooldown_ms": 1000, "gain_db": -4.0},
+	&"jump": {"cooldown_ms": 60, "gain_db": -9.0},
+	&"flutter": {"cooldown_ms": 300, "gain_db": -12.0},
+	&"attack": {"cooldown_ms": 80, "gain_db": -8.0},
+	&"coin": {"cooldown_ms": 40, "gain_db": -9.0},
+	&"medal": {"cooldown_ms": 200, "gain_db": -6.0, "pitch": 1.2},
+	&"stomp": {"cooldown_ms": 50, "gain_db": -6.0},
+	&"kick": {"cooldown_ms": 60, "gain_db": -6.0},
+	&"bump": {"cooldown_ms": 80, "gain_db": -7.0},
+	&"powerup": {"cooldown_ms": 200, "gain_db": -6.0},
+	&"one_up": {"cooldown_ms": 300, "gain_db": -5.0},
+	&"hurt": {"cooldown_ms": 200, "gain_db": -5.0},
+	&"boss_hit": {"cooldown_ms": 120, "gain_db": -3.0, "pitch": 0.7},
+	&"spring": {"cooldown_ms": 100, "gain_db": -7.0, "pitch": 0.75},
+	&"land": {"cooldown_ms": 80, "gain_db": -14.0},
+	&"invalid": {"cooldown_ms": 300, "gain_db": -13.0},
+	&"tutorial": {"cooldown_ms": 300, "gain_db": -15.0},
+	&"ui_confirm": {"cooldown_ms": 90, "gain_db": -8.0},
+	&"ui_back": {"cooldown_ms": 90, "gain_db": -10.0, "pitch": 0.9},
+	&"ui_cancel": {"cooldown_ms": 90, "gain_db": -10.0, "pitch": 0.9},
+	&"ui_hover": {"cooldown_ms": 100, "gain_db": -20.0, "pitch": 1.5},
+	&"ui_focus": {"cooldown_ms": 100, "gain_db": -20.0, "pitch": 1.5},
+	&"ui_selection": {"cooldown_ms": 90, "gain_db": -13.0, "pitch": 1.1},
+	&"ui_toggle": {"cooldown_ms": 90, "gain_db": -11.0},
+	&"ui_slider": {"cooldown_ms": 90, "gain_db": -22.0, "pitch": 1.25},
+	&"ui_invalid": {"cooldown_ms": 220, "gain_db": -13.0, "pitch": 1.15},
+	&"ui_notification": {"cooldown_ms": 250, "gain_db": -12.0},
+}
