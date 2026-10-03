@@ -4,13 +4,13 @@
   "engineVersion": "4.7.2.stable.official.ed1daf0bf",
   "inputs": {
     "objectFormat": "sha1",
-    "tree": "13139b323a8489c05c54d341a6b502f9860b8134",
+    "tree": "81d75e88af4dfb459cb4ffa45253ecdd8974f283",
     "entries": [
       {
         "path": ".gitignore",
         "type": "file",
         "mode": "100644",
-        "object": "7b66d541a1499ebdea30a69c9b323abd857864b5"
+        "object": "bafd5c78f297570b998531608880d3be0c77e825"
       },
       {
         "path": ".manus-game-template.json",
@@ -34,7 +34,7 @@
         "path": "assets.lock.json",
         "type": "file",
         "mode": "100644",
-        "object": "9e715a739adbcdda98d94d387f8833951e29ce4a"
+        "object": "94d43d5bef128874f25b948cf591b44be1f8ce0e"
       },
       {
         "path": "assets/game/acorn/flat.webp",
@@ -277,6 +277,270 @@
         "type": "file",
         "mode": "100644",
         "object": "19f43380c3a6e63db590c5b1fef9656a36f91792"
+      },
+      {
+        "path": "assets/game/audio/stages/w1_1.ogg",
+        "type": "managed",
+        "sha256": "sha256:2573bc445fc81c80f0959ea48a45782bec51ae9bc4ba0936233ff066d3ce23f7"
+      },
+      {
+        "path": "assets/game/audio/stages/w1_1.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "58bf3f27a72dbd7cba73d0383736a3783638a15f"
+      },
+      {
+        "path": "assets/game/audio/stages/w1_2.ogg",
+        "type": "managed",
+        "sha256": "sha256:03c154265f90f45afe81fc82c224821310034260ccc2730056e94d2d66f2694a"
+      },
+      {
+        "path": "assets/game/audio/stages/w1_2.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "7906f845882bce89fa215202d4a2fd4b3066b307"
+      },
+      {
+        "path": "assets/game/audio/stages/w1_3.ogg",
+        "type": "managed",
+        "sha256": "sha256:8108a6d66d9235aafcbc2c140f7aebeb24873fd4040c5d8f7a833dc7997cc207"
+      },
+      {
+        "path": "assets/game/audio/stages/w1_3.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "0ed47270422fe24ef334a9dea090103c311ac744"
+      },
+      {
+        "path": "assets/game/audio/stages/w1_4.ogg",
+        "type": "managed",
+        "sha256": "sha256:3fb9a563840da01fc99b74c35d2059d75f1e429af8812dd9fa74879df35a63e7"
+      },
+      {
+        "path": "assets/game/audio/stages/w1_4.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "59e1f58bfee62ee50cf19e62cced610ec65e4d7a"
+      },
+      {
+        "path": "assets/game/audio/stages/w2_1.ogg",
+        "type": "managed",
+        "sha256": "sha256:159506708cb123edb69ee14d65fe797d1aa854fd65d5cf1a75741a6e73cadcce"
+      },
+      {
+        "path": "assets/game/audio/stages/w2_1.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "01b3c29c38a58adc10023f51fe3d908cb2709dc3"
+      },
+      {
+        "path": "assets/game/audio/stages/w2_2.ogg",
+        "type": "managed",
+        "sha256": "sha256:f4fbda18e5175acd40d20a3937b1ff0db414c77fca4aeee04169532f26b00beb"
+      },
+      {
+        "path": "assets/game/audio/stages/w2_2.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "fd41014214e346ac6906995bac76272472564065"
+      },
+      {
+        "path": "assets/game/audio/stages/w2_3.ogg",
+        "type": "managed",
+        "sha256": "sha256:4720a03181130830459ed34b93f4582531498d0dea9e606e1cbe0465cae77365"
+      },
+      {
+        "path": "assets/game/audio/stages/w2_3.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "5075eafd55975b5b9ed9c847208643016b827abf"
+      },
+      {
+        "path": "assets/game/audio/stages/w2_4.ogg",
+        "type": "managed",
+        "sha256": "sha256:2644ccd40c39aa5f2e640e0836d55d256e570e5630f18f4db53e9aca007d9a04"
+      },
+      {
+        "path": "assets/game/audio/stages/w2_4.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "5ad956220b955c95f3f91c3d33b2462413d4eead"
+      },
+      {
+        "path": "assets/game/audio/stages/w3_1.ogg",
+        "type": "managed",
+        "sha256": "sha256:df2b481577695a6c55a4de7fa6904b719421825105cf2dd79424a87dd326a036"
+      },
+      {
+        "path": "assets/game/audio/stages/w3_1.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "c83513ca9078454ca61f77f8c90c8e84ea62c77a"
+      },
+      {
+        "path": "assets/game/audio/stages/w3_2.ogg",
+        "type": "managed",
+        "sha256": "sha256:bc96fccf44dfbdd7b060a7e9db97ca0b8df71db81a187ff0eddb24387ffbe531"
+      },
+      {
+        "path": "assets/game/audio/stages/w3_2.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "f9e78097c6b85b3e062f025e3c9c5d275507380a"
+      },
+      {
+        "path": "assets/game/audio/stages/w3_3.ogg",
+        "type": "managed",
+        "sha256": "sha256:6ac6a482572be1729c7d2ba8bc16bcb6de31709a5956848ffb684f4f9338318f"
+      },
+      {
+        "path": "assets/game/audio/stages/w3_3.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "63f489c7e80d0ae551521162264b0d113172a4b7"
+      },
+      {
+        "path": "assets/game/audio/stages/w3_4.ogg",
+        "type": "managed",
+        "sha256": "sha256:57d9d02f4402a14fab43c7bf20c2cc4f31b222fe2f2ff2712b0bfe296d0a0392"
+      },
+      {
+        "path": "assets/game/audio/stages/w3_4.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "917bde0aaf44f37f0ced7f5e5a9aab063996648c"
+      },
+      {
+        "path": "assets/game/audio/stages/w4_1.ogg",
+        "type": "managed",
+        "sha256": "sha256:e44fe7784024ef8fc0cdef1bf142aaabf91ae1f46b6f3230a4e429ec15c90e05"
+      },
+      {
+        "path": "assets/game/audio/stages/w4_1.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "80e9ee5aee86461e5541ddaa548c0c4867f38b7f"
+      },
+      {
+        "path": "assets/game/audio/stages/w4_2.ogg",
+        "type": "managed",
+        "sha256": "sha256:262f29aaf855b1d98919ef5fd1e3051dee968627e99556cfab6043dd80030da3"
+      },
+      {
+        "path": "assets/game/audio/stages/w4_2.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "a8e6754420cc76537b1d1951d0a3a1ded86a9c46"
+      },
+      {
+        "path": "assets/game/audio/stages/w4_3.ogg",
+        "type": "managed",
+        "sha256": "sha256:b968ae77ec20d5f3cf9b6a94f4c36d6e52a071eb91b4f84cd408618206d9a99f"
+      },
+      {
+        "path": "assets/game/audio/stages/w4_3.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "5d7a1f9de256d4a94e3d4865c1b73311ba6e14a6"
+      },
+      {
+        "path": "assets/game/audio/stages/w4_4.ogg",
+        "type": "managed",
+        "sha256": "sha256:04f5f50675f3a41185df4971da1e625bb0de0fed9bca2156ce2affab5be2848a"
+      },
+      {
+        "path": "assets/game/audio/stages/w4_4.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "6d32a0c4865a259f2cae6e4215a11eb0bf1a0bc8"
+      },
+      {
+        "path": "assets/game/audio/stages/w5_1.ogg",
+        "type": "managed",
+        "sha256": "sha256:d510de408d016921d559fa14b3a70b7c45384a405119f3ed7df03bc962ddec94"
+      },
+      {
+        "path": "assets/game/audio/stages/w5_1.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "45be3a18746c82611a87aec0abb7d9c9c0012bf3"
+      },
+      {
+        "path": "assets/game/audio/stages/w5_2.ogg",
+        "type": "managed",
+        "sha256": "sha256:4680ffbcfe68b72941a5805289d1cf4276971c6d3c2b558ba27cac105c83f5fa"
+      },
+      {
+        "path": "assets/game/audio/stages/w5_2.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "a01707c628cac49938551aedb541a8f968f13c84"
+      },
+      {
+        "path": "assets/game/audio/stages/w5_3.ogg",
+        "type": "managed",
+        "sha256": "sha256:e014993cb1d52664c4c36f2f4762440089460ba786bbf9cd110913d1136d0da3"
+      },
+      {
+        "path": "assets/game/audio/stages/w5_3.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "aa89695a71e2d4406dad769280314a150499d637"
+      },
+      {
+        "path": "assets/game/audio/stages/w5_4.ogg",
+        "type": "managed",
+        "sha256": "sha256:5d7344cf5021bb2e1dbbd0138d300f9c24722d8607bd0899c890fee85753a8cc"
+      },
+      {
+        "path": "assets/game/audio/stages/w5_4.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "6e7c2c90384291ef3ec88bc49b945a77c1a95168"
+      },
+      {
+        "path": "assets/game/audio/stages/w6_1.ogg",
+        "type": "managed",
+        "sha256": "sha256:ebd903720945916e825e8cfe3a23a0b8d14404fa7ef1e3ff41a090184a2cff7c"
+      },
+      {
+        "path": "assets/game/audio/stages/w6_1.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "953ae8cef468bf2ac79b48522fafc71ebc99f2c4"
+      },
+      {
+        "path": "assets/game/audio/stages/w6_2.ogg",
+        "type": "managed",
+        "sha256": "sha256:7e187e893733065ad11f6da581d246411c6007d02beb96142320595bd0593057"
+      },
+      {
+        "path": "assets/game/audio/stages/w6_2.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "042f7bf060ba52a2736fa33a2d7212689e23baae"
+      },
+      {
+        "path": "assets/game/audio/stages/w6_3.ogg",
+        "type": "managed",
+        "sha256": "sha256:4ea5892243e32b9899b5a0df00a7cc209d0b58fc4f06815ebfecc65076df81fa"
+      },
+      {
+        "path": "assets/game/audio/stages/w6_3.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "220d010f1f70883ce4c0481bdaf37d32426f84fe"
+      },
+      {
+        "path": "assets/game/audio/stages/w6_4.ogg",
+        "type": "managed",
+        "sha256": "sha256:706d2ae50e396bf902ad63b9e8cd4d7d5fe5666ffcf87cefeca096402bf79466"
+      },
+      {
+        "path": "assets/game/audio/stages/w6_4.ogg.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "b0f8656d9276c52395c8fbd916d79a4dd6e8580c"
       },
       {
         "path": "assets/game/backgrounds/world_1.webp",
@@ -1624,151 +1888,157 @@
         "path": "data/stages/w1_1.json",
         "type": "file",
         "mode": "100644",
-        "object": "5296656fa3f5b710f97b83e8bcf7f5404590291c"
+        "object": "5ea85a42854e5d516779fd47830af57ee23296bb"
       },
       {
         "path": "data/stages/w1_2.json",
         "type": "file",
         "mode": "100644",
-        "object": "4e0ddd3969e5047ec731a375262077f761087d2f"
+        "object": "e2acc3d1489a8d497adf5de012629e3903caf75c"
       },
       {
         "path": "data/stages/w1_3.json",
         "type": "file",
         "mode": "100644",
-        "object": "62c5a43591bff3b0b2a0151d175f565e01482154"
+        "object": "04372e3269cf5423519eafe9ba1c4dae7b3fb1b9"
       },
       {
         "path": "data/stages/w1_4.json",
         "type": "file",
         "mode": "100644",
-        "object": "2d0cacda3f4a359bef4fd54b2126aa54382371fb"
+        "object": "acf821939c790cc042631ef96ba0ab7431278de7"
       },
       {
         "path": "data/stages/w2_1.json",
         "type": "file",
         "mode": "100644",
-        "object": "24d1646085c3e6f929f63f0c9db5866542836882"
+        "object": "f20f20a847f7e6342f048e81d2425f02b0a77ea2"
       },
       {
         "path": "data/stages/w2_2.json",
         "type": "file",
         "mode": "100644",
-        "object": "6a339daa49eaa2d3fff8b1024e0aaca1e58e71a6"
+        "object": "dd214a1af40db3d000956700a7e01fc50369cced"
       },
       {
         "path": "data/stages/w2_3.json",
         "type": "file",
         "mode": "100644",
-        "object": "799ddb662e58109a7b9e1ab993e4fc4fde340cc3"
+        "object": "a9c9e37efab330fce484c44feaa0aa84bc3ac51c"
       },
       {
         "path": "data/stages/w2_4.json",
         "type": "file",
         "mode": "100644",
-        "object": "b508e74f65bc70bb14b4e2c1f70660313b9d0d20"
+        "object": "85e0d82762a8bbd131bb2da7951946263b44aa3f"
       },
       {
         "path": "data/stages/w3_1.json",
         "type": "file",
         "mode": "100644",
-        "object": "88f759cc99187aab80c493aa5c2ed0035450c377"
+        "object": "a896ecac4f5de5ca9ad407c202c550d41b5241a6"
       },
       {
         "path": "data/stages/w3_2.json",
         "type": "file",
         "mode": "100644",
-        "object": "6582946d9f0500c47204c4326f1192263c1f7ff5"
+        "object": "49a36bbace1fe5a9b05af30d0d8cf6f7a24ec532"
       },
       {
         "path": "data/stages/w3_3.json",
         "type": "file",
         "mode": "100644",
-        "object": "835008e97c97b4fcf3f0809a365ee2e2bb9317ab"
+        "object": "d4d69c546ee2e80fd1d0e7ab75f777eac3c38ea5"
       },
       {
         "path": "data/stages/w3_4.json",
         "type": "file",
         "mode": "100644",
-        "object": "1b4f748ab0c5071fccca2b4f22d63a5ab90dc9fa"
+        "object": "fa41d47ecac924afe9e80d9001df1b960f112463"
       },
       {
         "path": "data/stages/w4_1.json",
         "type": "file",
         "mode": "100644",
-        "object": "fb76c9908c82f7c8dfed745852b75c2bfbe4a44a"
+        "object": "8f1b3e7cc003f2c7542fe75cd446f2314b936983"
       },
       {
         "path": "data/stages/w4_2.json",
         "type": "file",
         "mode": "100644",
-        "object": "d9af219c3e1586e3797c160c6f7260113c0a181a"
+        "object": "c172f3fba92a0118fbe3ddb888fcab4edb51515d"
       },
       {
         "path": "data/stages/w4_3.json",
         "type": "file",
         "mode": "100644",
-        "object": "27b9fd239f49c911fa345cb3f0c05191b7ca0c58"
+        "object": "148e45ec588cf5a0c58bb56fa6a7e79fef08318f"
       },
       {
         "path": "data/stages/w4_4.json",
         "type": "file",
         "mode": "100644",
-        "object": "b88e07cab74ad3b3204276c528d3fb816dc71236"
+        "object": "73e02ab43edfc5001ba2bb439801d673c7c6d5d1"
       },
       {
         "path": "data/stages/w5_1.json",
         "type": "file",
         "mode": "100644",
-        "object": "985b2e176af2d0a36b7045efda1921b5cb22fa31"
+        "object": "a7a4bc2fdba340bef9b31874b9a75a69b0635688"
       },
       {
         "path": "data/stages/w5_2.json",
         "type": "file",
         "mode": "100644",
-        "object": "1ed82a40a1ba2fdf85ac1bcf0dd4c85eda305dda"
+        "object": "2fa15aca0eae400764e30c67b9d542b4bac3fcef"
       },
       {
         "path": "data/stages/w5_3.json",
         "type": "file",
         "mode": "100644",
-        "object": "0fd0d297e102929ca90c743f06b2974a42a243f4"
+        "object": "1867b9a84319c9536c09d141c0747a51b31ff0fe"
       },
       {
         "path": "data/stages/w5_4.json",
         "type": "file",
         "mode": "100644",
-        "object": "5f59b34450b1d341bbaff19c9cc9f7fb203be52b"
+        "object": "dff75414166c1067390962b6fa9e5381b1d16aab"
       },
       {
         "path": "data/stages/w6_1.json",
         "type": "file",
         "mode": "100644",
-        "object": "de22e3a75b44e820c4fb37265fa60fc5966be7de"
+        "object": "a64f93522fea992888205980a80236f41b453ed4"
       },
       {
         "path": "data/stages/w6_2.json",
         "type": "file",
         "mode": "100644",
-        "object": "eb87c6a56f50edd350b58d9b107044f850ab9a97"
+        "object": "ee4dd8b48fe59c06307de348b48397fbb0003442"
       },
       {
         "path": "data/stages/w6_3.json",
         "type": "file",
         "mode": "100644",
-        "object": "d58b309ea8e94112f0585eb2de90b2e1a281032b"
+        "object": "e86fcfcf4ed1219d1b103a3f83ab3c0e541fdc04"
       },
       {
         "path": "data/stages/w6_4.json",
         "type": "file",
         "mode": "100644",
-        "object": "d70a1fe61365393b38d19bdd2a5dc3ca9bfa3300"
+        "object": "6aaa08862b75442e2bbf4fadd38248f946394f08"
       },
       {
         "path": "docs/GAME_PRODUCTION_PLAYBOOK.md",
         "type": "file",
         "mode": "100644",
         "object": "21d9883ad0e1dbe74337fcfcb0e0e9d735cfeddc"
+      },
+      {
+        "path": "docs/audio-credits.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "eb709c8e18b1f984c23a1b614ceb2afc7176e4d9"
       },
       {
         "path": "docs/game-multiplayer.md",
@@ -1846,7 +2116,7 @@
         "path": "scripts/audio_catalog.gd",
         "type": "file",
         "mode": "100644",
-        "object": "0a953b513590ca7a0e73a6097e5af1ca986ecb8a"
+        "object": "699966a1e20b57905556d08189b85a94791bb584"
       },
       {
         "path": "scripts/audio_catalog.gd.uid",
@@ -1912,7 +2182,7 @@
         "path": "scripts/game.gd",
         "type": "file",
         "mode": "100644",
-        "object": "7b1613d88289f862b65a3c7255bd8ac0d77688ed"
+        "object": "5b0883b51b6d0fb2b247a0b8d88f231c44380493"
       },
       {
         "path": "scripts/game.gd.uid",
@@ -2290,7 +2560,7 @@
         "path": "test/smoke.gd",
         "type": "file",
         "mode": "100644",
-        "object": "0d17b2879e42c2e53022c532b29ba3d78277a003"
+        "object": "4b999c02dc27276b7bd0c987d45f5ecc8df8aeb2"
       },
       {
         "path": "test/smoke.gd.uid",
@@ -2383,6 +2653,12 @@
         "object": "0810aab0e2ee9e8c03cc20d7e738a2b180ffa1ca"
       },
       {
+        "path": "tools/import_cc0_bgm.py",
+        "type": "file",
+        "mode": "100644",
+        "object": "f40bcc8b177301d2d0f3893174c884aa1dc0bb2f"
+      },
+      {
         "path": "tools/install_cjk_font.py",
         "type": "file",
         "mode": "100644",
@@ -2392,7 +2668,7 @@
         "path": "tools/stage_gen.py",
         "type": "file",
         "mode": "100644",
-        "object": "9e3184a01cf41036a7018275ac3aa6608d145445"
+        "object": "e7cd6de19594be69b8db76db28f268778e43d1be"
       },
       {
         "path": "tools/subset_fonts.py",
@@ -2415,7 +2691,7 @@
     ]
   },
   "build": {
-    "snapshotId": "sha256:72892024b7e533a08008b32304c96849f1e790934dbbbe8d1027cba57aa15d70",
+    "snapshotId": "sha256:bd39941e782f6ea486891bbfb1554995756b8953e6ed39620fc122af441ca37a",
     "toolchain": {
       "engineVersion": "4.7.2.stable.official.ed1daf0bf",
       "engineDigest": "sha256:8d106cbe6144c2dc7e881d61d2429c1a8a76e6b22ef48bd5e48dcf934953f71e",
@@ -2423,26 +2699,26 @@
         "debug": "sha256:08962aefef811b603541d7951ac67ef00413aad2d978855183c28adee98f626a",
         "release": "sha256:d3ee2f08cef0cf3cf6678a6355a92a8db48ccdd35cbd2e8bfd5f0e8a0b4032a0"
       },
-      "runtimeDigest": "sha256:2cf2f8cb1cd3854dd994275703482816c30000932f1e50b58a4ad9286571d48f"
+      "runtimeDigest": "sha256:7e8caf03ce3d60f5bb3f653c09b0bc43b854e47ceb540bbb687b223f62a1ca51"
     },
     "profile": "release",
     "export": {
       "profile": "release",
-      "snapshotId": "sha256:72892024b7e533a08008b32304c96849f1e790934dbbbe8d1027cba57aa15d70",
+      "snapshotId": "sha256:bd39941e782f6ea486891bbfb1554995756b8953e6ed39620fc122af441ca37a",
       "files": {
         "THIRD_PARTY_NOTICES.txt": "sha256:274002c35fb9abca920ebcae2a616e99dc3861876a093e81bac07a13be90e9b1",
         "index.apple-touch-icon.png": "sha256:3ade8f1e529d7c3cab57aa3e2438bddfbb793869b2ae654b85361d9cccdb1365",
         "index.audio.position.worklet.js": "sha256:be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
         "index.audio.worklet.js": "sha256:5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-        "index.html": "sha256:c80187dbe94efa61c5fc8871c3a257fa03dc512a5479641d92db976b06cf2d1f",
+        "index.html": "sha256:257c641befa293ec295a765e5a02c7b4afefd44a15a6ec1cc9431b02b3be7e43",
         "index.icon.png": "sha256:9dac057bd928ca351435ae86fda6e344dd947d5a5c09e702268af927bd0b0d21",
         "index.js": "sha256:cb28c2d8ffd8981888823f1b6d98cdec4e3e11adf209ad556c22878e6d51c63a",
-        "index.pck": "sha256:e110c58884dc7d1f48fba53cc780e7049477d83580d611190e8dc126542f8dc0",
+        "index.pck": "sha256:850f828fd167253dbeef8d63c5fa2940c644c7963d7ee9ea9c7e24a94d25ffce",
         "index.png": "sha256:7b5289540aafca2079f3a6a805ba084abff03a541c3b7a5956673b3db4abc776",
         "index.wasm": "sha256:fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
         "open-source-licenses.html": "sha256:5885133029a958c9c999ca91da4a7278a6778204b6e2a64f4216b86c029021ef"
       },
-      "digest": "sha256:5c9c562f079a4f81a9370f5bbdf5511169c059dd5461468b05335959ccdd1c4b"
+      "digest": "sha256:f26fb660979e97ae2ef276271f4b2c7f9f236c4ab41e235cbae8467b202e7a92"
     }
   },
   "artifacts": {
@@ -2451,17 +2727,17 @@
       "sha256": "sha256:fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
     },
     "pck": {
-      "path": "/manus-storage/game/sha256/e110c58884dc7d1f48fba53cc780e7049477d83580d611190e8dc126542f8dc0.pck",
-      "sha256": "sha256:e110c58884dc7d1f48fba53cc780e7049477d83580d611190e8dc126542f8dc0"
+      "path": "/manus-storage/game/sha256/850f828fd167253dbeef8d63c5fa2940c644c7963d7ee9ea9c7e24a94d25ffce.pck",
+      "sha256": "sha256:850f828fd167253dbeef8d63c5fa2940c644c7963d7ee9ea9c7e24a94d25ffce"
     }
   },
   "files": {
     "THIRD_PARTY_NOTICES.txt": "sha256:274002c35fb9abca920ebcae2a616e99dc3861876a093e81bac07a13be90e9b1",
-    "game-sharing.json": "sha256:7114b89cf9c3c0c18d24ea73a3e4915565f02d59532e4e06df2a96661a3e8fb8",
+    "game-sharing.json": "sha256:691e17885024b843f864bc135c7f1464f9607e2de6232930be6f0561b970856e",
     "index.apple-touch-icon.png": "sha256:3ade8f1e529d7c3cab57aa3e2438bddfbb793869b2ae654b85361d9cccdb1365",
     "index.audio.position.worklet.js": "sha256:be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
     "index.audio.worklet.js": "sha256:5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-    "index.html": "sha256:f41e78db4df0e6317c881448ece083e30859a103370ef4793a75920229d641e1",
+    "index.html": "sha256:0423127e753a0608e1aa733839c1596d1aa230946d43c74538a1aa0a936b7553",
     "index.icon.png": "sha256:9dac057bd928ca351435ae86fda6e344dd947d5a5c09e702268af927bd0b0d21",
     "index.js": "sha256:cb28c2d8ffd8981888823f1b6d98cdec4e3e11adf209ad556c22878e6d51c63a",
     "index.png": "sha256:7b5289540aafca2079f3a6a805ba084abff03a541c3b7a5956673b3db4abc776",

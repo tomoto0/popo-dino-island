@@ -3,15 +3,33 @@ extends RefCounted
 ## Literal paths are retained in the all-resources Web export.
 
 const BGM_PATH := "res://assets/game/audio/bgm_map.ogg"
-## World music; GameAudio.select_track() swaps between these tracks.
+## Map music plus one distinct CC0 track for every playable course.
 const BGM_TRACKS: Dictionary[StringName, String] = {
 	&"map": "res://assets/game/audio/bgm_map.ogg",
-	&"overworld": "res://assets/game/audio/bgm_overworld.ogg",
-	&"cave": "res://assets/game/audio/bgm_cave.ogg",
-	&"sky": "res://assets/game/audio/bgm_sky.ogg",
-	&"forest": "res://assets/game/audio/bgm_forest.ogg",
-	&"castle": "res://assets/game/audio/bgm_castle.ogg",
-	&"boss": "res://assets/game/audio/bgm_boss.ogg",
+	&"w1_1": "res://assets/game/audio/stages/w1_1.ogg",
+	&"w1_2": "res://assets/game/audio/stages/w1_2.ogg",
+	&"w1_3": "res://assets/game/audio/stages/w1_3.ogg",
+	&"w1_4": "res://assets/game/audio/stages/w1_4.ogg",
+	&"w2_1": "res://assets/game/audio/stages/w2_1.ogg",
+	&"w2_2": "res://assets/game/audio/stages/w2_2.ogg",
+	&"w2_3": "res://assets/game/audio/stages/w2_3.ogg",
+	&"w2_4": "res://assets/game/audio/stages/w2_4.ogg",
+	&"w3_1": "res://assets/game/audio/stages/w3_1.ogg",
+	&"w3_2": "res://assets/game/audio/stages/w3_2.ogg",
+	&"w3_3": "res://assets/game/audio/stages/w3_3.ogg",
+	&"w3_4": "res://assets/game/audio/stages/w3_4.ogg",
+	&"w4_1": "res://assets/game/audio/stages/w4_1.ogg",
+	&"w4_2": "res://assets/game/audio/stages/w4_2.ogg",
+	&"w4_3": "res://assets/game/audio/stages/w4_3.ogg",
+	&"w4_4": "res://assets/game/audio/stages/w4_4.ogg",
+	&"w5_1": "res://assets/game/audio/stages/w5_1.ogg",
+	&"w5_2": "res://assets/game/audio/stages/w5_2.ogg",
+	&"w5_3": "res://assets/game/audio/stages/w5_3.ogg",
+	&"w5_4": "res://assets/game/audio/stages/w5_4.ogg",
+	&"w6_1": "res://assets/game/audio/stages/w6_1.ogg",
+	&"w6_2": "res://assets/game/audio/stages/w6_2.ogg",
+	&"w6_3": "res://assets/game/audio/stages/w6_3.ogg",
+	&"w6_4": "res://assets/game/audio/stages/w6_4.ogg",
 }
 const CUE_PATHS: Dictionary[StringName, String] = {
 	&"stage_clear": "res://assets/game/audio/jingle_clear.ogg",

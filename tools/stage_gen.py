@@ -367,6 +367,7 @@ def build_stage(world: int, index: int) -> dict:
     rng = random.Random(1000 + n * 7919)
     b = Builder(world, index, d, rng)
     boss = index == 3
+    stage_id = f"w{world + 1}_{index + 1}"
     width = int(5200 + 3600 * d)
     if boss:
         width = int(width * 0.62)
@@ -376,14 +377,15 @@ def build_stage(world: int, index: int) -> dict:
         data[key] = [c for c in data[key] if 0 < c[0] < data["world_width"]]
     time_limit = 300 if data["world_width"] < 8000 else 350
     stage = {
-        "id": f"w{world + 1}_{index + 1}",
+        "id": stage_id,
         "world": world + 1,
         "index": index + 1,
         "label": f"{world + 1}-{index + 1}",
         "name": WORLDS[world]["stages"][index],
         "world_name": WORLDS[world]["name"],
         "theme": WORLDS[world]["theme"],
-        "music": "boss" if boss else WORLDS[world]["music"],
+        # Every course has its own source track, including each fortress course.
+        "music": stage_id,
         "difficulty": round(d, 3),
         "enemy_speed": round(1.0 + 0.45 * d, 3),
         "time": time_limit,

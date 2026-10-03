@@ -12,3 +12,9 @@ node_modules/
 .manus-artifacts.json
 .manus-logs/
 .manus-webdev/
+
+# Reproducible local import caches
+.cache/
+__pycache__/
+*.pyc
+site/**/*.import

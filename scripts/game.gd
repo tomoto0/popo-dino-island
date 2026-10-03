@@ -100,9 +100,14 @@ func _ready() -> void:
 	pause_menu.restart_requested.connect(restart_stage)
 	add_child(pause_menu)
 	SaveStore.cloud_status_changed.connect(_on_cloud_status)
-	GameAudio.select_track(THEME_MUSIC.get(stage.theme, &"overworld"))
+	GameAudio.select_track(_stage_music())
 	GameAudio.begin_game()
 	_show_intro()
+
+
+func _stage_music() -> StringName:
+	var fallback: StringName = StringName(THEME_MUSIC.get(stage.theme, &"overworld"))
+	return StringName(str(stage.get("music", fallback)))
 
 
 # ------------------------------------------------------------------ world building --------
@@ -586,7 +591,8 @@ func _start_boss_fight() -> void:
 	boss_wall.add_child(shape)
 	boss_wall.position = Vector2(boss.arena.x - 60.0, -300)
 	add_child.call_deferred(boss_wall)
-	GameAudio.select_track(&"boss")
+	# Fortress courses keep their own unique track when the arena locks.
+	GameAudio.select_track(_stage_music())
 
 
 # ------------------------------------------------------------------ events ----------------

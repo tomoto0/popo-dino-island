@@ -76,7 +76,7 @@
       "size": 778348,
       "assetType": "audio",
       "groupId": "game",
-      "used": true
+      "used": false
     },
     "assets/game/audio/bgm_castle.ogg": {
       "path": "/manus-storage/game/sha256/a42851517b74cb0d36641a522d807743fd62c97b596935472b75cdf526febdf2.ogg",
@@ -84,7 +84,7 @@
       "size": 967076,
       "assetType": "audio",
       "groupId": "game",
-      "used": true
+      "used": false
     },
     "assets/game/audio/bgm_cave.ogg": {
       "path": "/manus-storage/game/sha256/57d8dfba0411478b41158b169188d554226cfb9b0ce105786d51c0dde46a62bc.ogg",
@@ -92,7 +92,7 @@
       "size": 929548,
       "assetType": "audio",
       "groupId": "game",
-      "used": true
+      "used": false
     },
     "assets/game/audio/bgm_forest.ogg": {
       "path": "/manus-storage/game/sha256/5e3c4362ad18650f595b0eb5e57cc144a4ba291a0dbfa4e27dd5f390b5a1a372.ogg",
@@ -100,7 +100,7 @@
       "size": 952255,
       "assetType": "audio",
       "groupId": "game",
-      "used": true
+      "used": false
     },
     "assets/game/audio/bgm_map.ogg": {
       "path": "/manus-storage/game/sha256/6147f19507709f88e9c58a0228e70fe71a8285d7fb5fc99ceba0d0606aa530a4.ogg",
@@ -116,7 +116,7 @@
       "size": 1710217,
       "assetType": "audio",
       "groupId": "game",
-      "used": true
+      "used": false
     },
     "assets/game/audio/bgm_sky.ogg": {
       "path": "/manus-storage/game/sha256/02b338d184e72eccd1300725756b899a61b1d3a72143631f0939f416dc78ffcb.ogg",
@@ -124,7 +124,7 @@
       "size": 1016341,
       "assetType": "audio",
       "groupId": "game",
-      "used": true
+      "used": false
     },
     "assets/game/audio/jingle_clear.ogg": {
       "path": "/manus-storage/game/sha256/a5baf329e0444c0ca8c24449f806bbf8befd475c9378c8b3d062b0f23c69e15e.ogg",
@@ -218,6 +218,198 @@
       "path": "/manus-storage/game/sha256/392c6252f5cee95a7ef12a3f12334c4d2cd01bc352f94cdf3ec702a79e814d9d.ogg",
       "sha256": "sha256:392c6252f5cee95a7ef12a3f12334c4d2cd01bc352f94cdf3ec702a79e814d9d",
       "size": 12370,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w1_1.ogg": {
+      "path": "/manus-storage/game/sha256/2573bc445fc81c80f0959ea48a45782bec51ae9bc4ba0936233ff066d3ce23f7.ogg",
+      "sha256": "sha256:2573bc445fc81c80f0959ea48a45782bec51ae9bc4ba0936233ff066d3ce23f7",
+      "size": 684499,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w1_2.ogg": {
+      "path": "/manus-storage/game/sha256/03c154265f90f45afe81fc82c224821310034260ccc2730056e94d2d66f2694a.ogg",
+      "sha256": "sha256:03c154265f90f45afe81fc82c224821310034260ccc2730056e94d2d66f2694a",
+      "size": 412887,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w1_3.ogg": {
+      "path": "/manus-storage/game/sha256/8108a6d66d9235aafcbc2c140f7aebeb24873fd4040c5d8f7a833dc7997cc207.ogg",
+      "sha256": "sha256:8108a6d66d9235aafcbc2c140f7aebeb24873fd4040c5d8f7a833dc7997cc207",
+      "size": 401465,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w1_4.ogg": {
+      "path": "/manus-storage/game/sha256/3fb9a563840da01fc99b74c35d2059d75f1e429af8812dd9fa74879df35a63e7.ogg",
+      "sha256": "sha256:3fb9a563840da01fc99b74c35d2059d75f1e429af8812dd9fa74879df35a63e7",
+      "size": 2146866,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w2_1.ogg": {
+      "path": "/manus-storage/game/sha256/159506708cb123edb69ee14d65fe797d1aa854fd65d5cf1a75741a6e73cadcce.ogg",
+      "sha256": "sha256:159506708cb123edb69ee14d65fe797d1aa854fd65d5cf1a75741a6e73cadcce",
+      "size": 487576,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w2_2.ogg": {
+      "path": "/manus-storage/game/sha256/f4fbda18e5175acd40d20a3937b1ff0db414c77fca4aeee04169532f26b00beb.ogg",
+      "sha256": "sha256:f4fbda18e5175acd40d20a3937b1ff0db414c77fca4aeee04169532f26b00beb",
+      "size": 746404,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w2_3.ogg": {
+      "path": "/manus-storage/game/sha256/4720a03181130830459ed34b93f4582531498d0dea9e606e1cbe0465cae77365.ogg",
+      "sha256": "sha256:4720a03181130830459ed34b93f4582531498d0dea9e606e1cbe0465cae77365",
+      "size": 210913,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w2_4.ogg": {
+      "path": "/manus-storage/game/sha256/2644ccd40c39aa5f2e640e0836d55d256e570e5630f18f4db53e9aca007d9a04.ogg",
+      "sha256": "sha256:2644ccd40c39aa5f2e640e0836d55d256e570e5630f18f4db53e9aca007d9a04",
+      "size": 599335,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w3_1.ogg": {
+      "path": "/manus-storage/game/sha256/df2b481577695a6c55a4de7fa6904b719421825105cf2dd79424a87dd326a036.ogg",
+      "sha256": "sha256:df2b481577695a6c55a4de7fa6904b719421825105cf2dd79424a87dd326a036",
+      "size": 875898,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w3_2.ogg": {
+      "path": "/manus-storage/game/sha256/bc96fccf44dfbdd7b060a7e9db97ca0b8df71db81a187ff0eddb24387ffbe531.ogg",
+      "sha256": "sha256:bc96fccf44dfbdd7b060a7e9db97ca0b8df71db81a187ff0eddb24387ffbe531",
+      "size": 782861,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w3_3.ogg": {
+      "path": "/manus-storage/game/sha256/6ac6a482572be1729c7d2ba8bc16bcb6de31709a5956848ffb684f4f9338318f.ogg",
+      "sha256": "sha256:6ac6a482572be1729c7d2ba8bc16bcb6de31709a5956848ffb684f4f9338318f",
+      "size": 663275,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w3_4.ogg": {
+      "path": "/manus-storage/game/sha256/57d9d02f4402a14fab43c7bf20c2cc4f31b222fe2f2ff2712b0bfe296d0a0392.ogg",
+      "sha256": "sha256:57d9d02f4402a14fab43c7bf20c2cc4f31b222fe2f2ff2712b0bfe296d0a0392",
+      "size": 408173,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w4_1.ogg": {
+      "path": "/manus-storage/game/sha256/e44fe7784024ef8fc0cdef1bf142aaabf91ae1f46b6f3230a4e429ec15c90e05.ogg",
+      "sha256": "sha256:e44fe7784024ef8fc0cdef1bf142aaabf91ae1f46b6f3230a4e429ec15c90e05",
+      "size": 1011895,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w4_2.ogg": {
+      "path": "/manus-storage/game/sha256/262f29aaf855b1d98919ef5fd1e3051dee968627e99556cfab6043dd80030da3.ogg",
+      "sha256": "sha256:262f29aaf855b1d98919ef5fd1e3051dee968627e99556cfab6043dd80030da3",
+      "size": 405722,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w4_3.ogg": {
+      "path": "/manus-storage/game/sha256/b968ae77ec20d5f3cf9b6a94f4c36d6e52a071eb91b4f84cd408618206d9a99f.ogg",
+      "sha256": "sha256:b968ae77ec20d5f3cf9b6a94f4c36d6e52a071eb91b4f84cd408618206d9a99f",
+      "size": 605642,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w4_4.ogg": {
+      "path": "/manus-storage/game/sha256/04f5f50675f3a41185df4971da1e625bb0de0fed9bca2156ce2affab5be2848a.ogg",
+      "sha256": "sha256:04f5f50675f3a41185df4971da1e625bb0de0fed9bca2156ce2affab5be2848a",
+      "size": 508550,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w5_1.ogg": {
+      "path": "/manus-storage/game/sha256/d510de408d016921d559fa14b3a70b7c45384a405119f3ed7df03bc962ddec94.ogg",
+      "sha256": "sha256:d510de408d016921d559fa14b3a70b7c45384a405119f3ed7df03bc962ddec94",
+      "size": 480068,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w5_2.ogg": {
+      "path": "/manus-storage/game/sha256/4680ffbcfe68b72941a5805289d1cf4276971c6d3c2b558ba27cac105c83f5fa.ogg",
+      "sha256": "sha256:4680ffbcfe68b72941a5805289d1cf4276971c6d3c2b558ba27cac105c83f5fa",
+      "size": 896088,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w5_3.ogg": {
+      "path": "/manus-storage/game/sha256/e014993cb1d52664c4c36f2f4762440089460ba786bbf9cd110913d1136d0da3.ogg",
+      "sha256": "sha256:e014993cb1d52664c4c36f2f4762440089460ba786bbf9cd110913d1136d0da3",
+      "size": 190967,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w5_4.ogg": {
+      "path": "/manus-storage/game/sha256/5d7344cf5021bb2e1dbbd0138d300f9c24722d8607bd0899c890fee85753a8cc.ogg",
+      "sha256": "sha256:5d7344cf5021bb2e1dbbd0138d300f9c24722d8607bd0899c890fee85753a8cc",
+      "size": 534059,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w6_1.ogg": {
+      "path": "/manus-storage/game/sha256/ebd903720945916e825e8cfe3a23a0b8d14404fa7ef1e3ff41a090184a2cff7c.ogg",
+      "sha256": "sha256:ebd903720945916e825e8cfe3a23a0b8d14404fa7ef1e3ff41a090184a2cff7c",
+      "size": 805743,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w6_2.ogg": {
+      "path": "/manus-storage/game/sha256/7e187e893733065ad11f6da581d246411c6007d02beb96142320595bd0593057.ogg",
+      "sha256": "sha256:7e187e893733065ad11f6da581d246411c6007d02beb96142320595bd0593057",
+      "size": 1265797,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w6_3.ogg": {
+      "path": "/manus-storage/game/sha256/4ea5892243e32b9899b5a0df00a7cc209d0b58fc4f06815ebfecc65076df81fa.ogg",
+      "sha256": "sha256:4ea5892243e32b9899b5a0df00a7cc209d0b58fc4f06815ebfecc65076df81fa",
+      "size": 699574,
+      "assetType": "audio",
+      "groupId": "game",
+      "used": true
+    },
+    "assets/game/audio/stages/w6_4.ogg": {
+      "path": "/manus-storage/game/sha256/706d2ae50e396bf902ad63b9e8cd4d7d5fe5666ffcf87cefeca096402bf79466.ogg",
+      "sha256": "sha256:706d2ae50e396bf902ad63b9e8cd4d7d5fe5666ffcf87cefeca096402bf79466",
+      "size": 375513,
       "assetType": "audio",
       "groupId": "game",
       "used": true

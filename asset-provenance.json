@@ -72,9 +72,7 @@
       "inputs": [],
       "license": {},
       "origin": "unknown",
-      "referenceEvidence": [
-        "scripts/audio_catalog.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:e12e6c65c6c18984be69ed570b5e7862ec2b478e604cdb30bf4cb1cd23d28609",
       "shipped": true,
@@ -82,10 +80,8 @@
       "source": {},
       "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/audio_catalog.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/game/audio/bgm_castle.ogg": {
@@ -94,9 +90,7 @@
       "inputs": [],
       "license": {},
       "origin": "unknown",
-      "referenceEvidence": [
-        "scripts/audio_catalog.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:a42851517b74cb0d36641a522d807743fd62c97b596935472b75cdf526febdf2",
       "shipped": true,
@@ -104,10 +98,8 @@
       "source": {},
       "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/audio_catalog.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/game/audio/bgm_cave.ogg": {
@@ -116,9 +108,7 @@
       "inputs": [],
       "license": {},
       "origin": "unknown",
-      "referenceEvidence": [
-        "scripts/audio_catalog.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:57d8dfba0411478b41158b169188d554226cfb9b0ce105786d51c0dde46a62bc",
       "shipped": true,
@@ -126,10 +116,8 @@
       "source": {},
       "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/audio_catalog.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/game/audio/bgm_forest.ogg": {
@@ -138,9 +126,7 @@
       "inputs": [],
       "license": {},
       "origin": "unknown",
-      "referenceEvidence": [
-        "scripts/audio_catalog.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:5e3c4362ad18650f595b0eb5e57cc144a4ba291a0dbfa4e27dd5f390b5a1a372",
       "shipped": true,
@@ -148,10 +134,8 @@
       "source": {},
       "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/audio_catalog.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/game/audio/bgm_map.ogg": {
@@ -182,9 +166,7 @@
       "inputs": [],
       "license": {},
       "origin": "unknown",
-      "referenceEvidence": [
-        "scripts/audio_catalog.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:43a9f95614085561968cdc7752f400b12ad19d38e535d99777cc1a27f8562666",
       "shipped": true,
@@ -192,10 +174,8 @@
       "source": {},
       "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/audio_catalog.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/game/audio/bgm_sky.ogg": {
@@ -204,9 +184,7 @@
       "inputs": [],
       "license": {},
       "origin": "unknown",
-      "referenceEvidence": [
-        "scripts/audio_catalog.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:02b338d184e72eccd1300725756b899a61b1d3a72143631f0939f416dc78ffcb",
       "shipped": true,
@@ -214,10 +192,8 @@
       "source": {},
       "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/audio_catalog.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/game/audio/jingle_clear.ogg": {
@@ -475,6 +451,534 @@
       "sha256": "sha256:392c6252f5cee95a7ef12a3f12334c4d2cd01bc352f94cdf3ec702a79e814d9d",
       "shipped": true,
       "size": 12370,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w1_1.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:2573bc445fc81c80f0959ea48a45782bec51ae9bc4ba0936233ff066d3ce23f7",
+      "shipped": true,
+      "size": 684499,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w1_2.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:03c154265f90f45afe81fc82c224821310034260ccc2730056e94d2d66f2694a",
+      "shipped": true,
+      "size": 412887,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w1_3.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:8108a6d66d9235aafcbc2c140f7aebeb24873fd4040c5d8f7a833dc7997cc207",
+      "shipped": true,
+      "size": 401465,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w1_4.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:3fb9a563840da01fc99b74c35d2059d75f1e429af8812dd9fa74879df35a63e7",
+      "shipped": true,
+      "size": 2146866,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w2_1.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:159506708cb123edb69ee14d65fe797d1aa854fd65d5cf1a75741a6e73cadcce",
+      "shipped": true,
+      "size": 487576,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w2_2.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:f4fbda18e5175acd40d20a3937b1ff0db414c77fca4aeee04169532f26b00beb",
+      "shipped": true,
+      "size": 746404,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w2_3.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:4720a03181130830459ed34b93f4582531498d0dea9e606e1cbe0465cae77365",
+      "shipped": true,
+      "size": 210913,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w2_4.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:2644ccd40c39aa5f2e640e0836d55d256e570e5630f18f4db53e9aca007d9a04",
+      "shipped": true,
+      "size": 599335,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w3_1.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:df2b481577695a6c55a4de7fa6904b719421825105cf2dd79424a87dd326a036",
+      "shipped": true,
+      "size": 875898,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w3_2.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:bc96fccf44dfbdd7b060a7e9db97ca0b8df71db81a187ff0eddb24387ffbe531",
+      "shipped": true,
+      "size": 782861,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w3_3.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:6ac6a482572be1729c7d2ba8bc16bcb6de31709a5956848ffb684f4f9338318f",
+      "shipped": true,
+      "size": 663275,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w3_4.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:57d9d02f4402a14fab43c7bf20c2cc4f31b222fe2f2ff2712b0bfe296d0a0392",
+      "shipped": true,
+      "size": 408173,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w4_1.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:e44fe7784024ef8fc0cdef1bf142aaabf91ae1f46b6f3230a4e429ec15c90e05",
+      "shipped": true,
+      "size": 1011895,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w4_2.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:262f29aaf855b1d98919ef5fd1e3051dee968627e99556cfab6043dd80030da3",
+      "shipped": true,
+      "size": 405722,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w4_3.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:b968ae77ec20d5f3cf9b6a94f4c36d6e52a071eb91b4f84cd408618206d9a99f",
+      "shipped": true,
+      "size": 605642,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w4_4.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:04f5f50675f3a41185df4971da1e625bb0de0fed9bca2156ce2affab5be2848a",
+      "shipped": true,
+      "size": 508550,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w5_1.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:d510de408d016921d559fa14b3a70b7c45384a405119f3ed7df03bc962ddec94",
+      "shipped": true,
+      "size": 480068,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w5_2.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:4680ffbcfe68b72941a5805289d1cf4276971c6d3c2b558ba27cac105c83f5fa",
+      "shipped": true,
+      "size": 896088,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w5_3.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:e014993cb1d52664c4c36f2f4762440089460ba786bbf9cd110913d1136d0da3",
+      "shipped": true,
+      "size": 190967,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w5_4.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:5d7344cf5021bb2e1dbbd0138d300f9c24722d8607bd0899c890fee85753a8cc",
+      "shipped": true,
+      "size": 534059,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w6_1.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:ebd903720945916e825e8cfe3a23a0b8d14404fa7ef1e3ff41a090184a2cff7c",
+      "shipped": true,
+      "size": 805743,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w6_2.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:7e187e893733065ad11f6da581d246411c6007d02beb96142320595bd0593057",
+      "shipped": true,
+      "size": 1265797,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w6_3.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:4ea5892243e32b9899b5a0df00a7cc209d0b58fc4f06815ebfecc65076df81fa",
+      "shipped": true,
+      "size": 699574,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/game/audio/stages/w6_4.ogg": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/audio_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:706d2ae50e396bf902ad63b9e8cd4d7d5fe5666ffcf87cefeca096402bf79466",
+      "shipped": true,
+      "size": 375513,
       "source": {},
       "status": "present",
       "transformations": [],
@@ -2974,9 +3478,9 @@
         ]
       }
     ],
-    "pckSha256": "sha256:e110c58884dc7d1f48fba53cc780e7049477d83580d611190e8dc126542f8dc0",
+    "pckSha256": "sha256:850f828fd167253dbeef8d63c5fa2940c644c7963d7ee9ea9c7e24a94d25ffce",
     "profile": "release",
-    "sourceFingerprint": "sha256:4fd68dd6b87850f4116721cac85211be8124014a77ec49d7ef00bdfc5a825b00"
+    "sourceFingerprint": "sha256:37f5b7426f543ed8161ff97dcc98a4210382b814005ca763edc9c7eb93c43816"
   },
   "procedures": {},
   "summary": {
@@ -3009,9 +3513,9 @@
     },
     "files": {
       "downloaded": 0,
-      "retained": 132,
-      "shipped": 132,
-      "used": 82
+      "retained": 156,
+      "shipped": 156,
+      "used": 100
     },
     "origins": {
       "ai": {
@@ -3045,9 +3549,9 @@
         "used": 10
       },
       "unknown": {
-        "retained": 90,
-        "shipped": 90,
-        "used": 72
+        "retained": 114,
+        "shipped": 114,
+        "used": 90
       }
     },
     "packs": {

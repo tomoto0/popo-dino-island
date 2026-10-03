@@ -2,6 +2,7 @@ extends SceneTree
 ## End-to-end smoke test for Popo's Dino Island. Prints [SMOKE_PASS] when every check holds.
 
 const CATALOG = preload("res://scripts/stage_catalog.gd")
+const AUDIO_CATALOG = preload("res://scripts/audio_catalog.gd")
 var ENTITIES: GDScript
 const GAME_FONT_PATH := "res://assets/template/fonts/ui_regular.tres"
 const JP_TEXT := "ポポのダイノアイランドワールド草原高原洞城天空森コースクリアゲームオーバーセーブ中間ポイントタマゴ、。！？：（）×←→"
@@ -68,6 +69,7 @@ func _run() -> void:
 	var ids := CATALOG.stages()
 	_check(ids.size() == 24, "24 stages in catalogue (got %d)" % ids.size())
 	var last_difficulty := -1.0
+	var stage_music: Dictionary[StringName, bool] = {}
 	for id: String in ids:
 		var stage := CATALOG.load_stage(id)
 		_check(not stage.is_empty(), "stage loads: " + id)
@@ -77,6 +79,12 @@ func _run() -> void:
 		last_difficulty = float(stage.difficulty)
 		_check((stage.medals as Array).size() == 3, "3 medals in " + id)
 		_check(stage.has("boss") == (int(stage.index) == 4), "boss only in x-4 stages: " + id)
+		var music_key: StringName = StringName(str(stage.get("music", "")))
+		_check(AUDIO_CATALOG.BGM_TRACKS.has(music_key), "BGM track registered: " + id)
+		var music_path: String = String(AUDIO_CATALOG.BGM_TRACKS.get(music_key, ""))
+		_check(load(music_path) is AudioStream, "BGM track loads: " + id)
+		stage_music[music_key] = true
+	_check(stage_music.size() == ids.size(), "every stage has a different BGM")
 	# Guest save starts fresh.
 	SAVE.play_as_guest()
 	_check(SAVE.is_guest() and SAVE.unlocked_count() == 1 and SAVE.lives() == 5, "fresh guest save")
@@ -218,6 +226,7 @@ func _run() -> void:
 		game.player.global_position = Vector2(game.boss.arena.x + 260.0, 400.0)
 		await _frames(20)
 		_check(game.boss_active, "boss fight starts in the arena")
+		_check(AUDIO.current_track == &"w1_4", "boss arena keeps its course-specific BGM")
 		game.boss.hp = 1
 		game.boss.flash = 0.0
 		game.boss.hit_by_egg()
@@ -229,6 +238,7 @@ func _run() -> void:
 		SAVE.selected_stage = id
 		var g := await _start_game(4)
 		_check(g.player != null and g.goal != null, "stage builds: " + id)
+		_check(AUDIO.current_track == StringName(id), "course-specific BGM starts: " + id)
 		if g.player != null:
 			_check(g.player.global_position.y < 700.0, "spawn above the kill plane: " + id)
 		await _stop_game(g)
